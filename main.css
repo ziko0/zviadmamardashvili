@@ -62,6 +62,7 @@ main p{
     font-size: 2em;
     text-align: center;
     line-height: 59xp;
+    border-bottom: 3px solid #C65151;
 }
 
 .social a{

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github user search</title>
+        <!-- own css -->
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="./app1.css">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+        <!-- fontAwsome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <!-- jquery cdn -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li id="#app"><a href="./app1.html">App-1</a></li>
+                    <li id="#about"><a href="./app2.html">App-2</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-wrapper">
+                <div class="search-form">
+                    <input type="text" placeholder="Search user" id="userInput">
+                    <button id="search-btn">Search</button>
+                </div>
+        
+                <div class="card" id="infoCard">
+                    <div class="avatar">
+                        <img src="https://unsplash.it/200/200" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>Porfile Name</h2>
+                        <p>profile_username</p>
+                        <div class="followers-info">
+                            <div class="single">
+                                <span>123</span>
+                                <span>Followers</span>
+                            </div>
+        
+                            <div class="single">
+                                <span>123</span>
+                                <span>Following</span>
+                            </div>
+        
+                            <div class="single">
+                                <span>123</span>
+                                <span>Repos</span>
+                            </div>
+        
+                            <a href="/">Visit profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+<script src="./app1.js"></script>
+</body>
+</html>

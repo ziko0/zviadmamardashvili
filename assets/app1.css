@@ -1,0 +1,56 @@
+input{
+    width: 150px;
+    height: 30px;
+    color: inherit;
+    border:  3px solid #C65151;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    background-color: inherit;
+    border: 3px solid #9E54D8;
+}
+
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 15px;
+margin-top: 1rem ;
+border: 3px solid #C65151;
+box-sizing: border-box;
+}
+
+.avatar{
+width: 150px;
+height: 150px;
+border-radius: 100px;
+object-fit: cover;
+}
+
+.avatar img{
+width: 150px;
+height: 150px;
+border-radius: 100%;
+}
+
+.info{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.followers-info{
+display: flex;
+flex-direction: column;
+}
+.visit{
+color: red;
+text-decoration: none;
+border: 1px solid black;
+padding: 4px;
+margin-top: 45px;
+text-align: center;
+}

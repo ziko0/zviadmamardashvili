@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    border-color: #C65151;
+}
+
+body{
+    background-color: #FFDCAB;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+    gap: 24px;
+    padding: 0 30px;
+}
+
+header{
+    grid-row: 1;
+}
+
+main{
+    grid-row: 2;
+}
+
+/* header */
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #333;
+}
+
+/* main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+main p{
+    display: block;
+    max-width: 550px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 59xp;
+}
+
+.social a{
+    color: #333;
+}
+
+i{
+    font-size: 20px;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.linkdin:hover{
+    color: #0A66C2;
+}
+
+.git:hover{
+    color: #333;
+}
+
+.ig:hover{
+    color: #fb3958;
+}
